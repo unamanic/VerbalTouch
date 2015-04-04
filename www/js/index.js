@@ -32,3 +32,12 @@ var app = {
 };
 
 app.initialize();
+
+(function(){
+	var app = angular.module("verbalTouch",[]);
+	
+	app.controller("LauncherCtrl", function($scope) {
+		$scope.appName = "Verbal Touch";
+	});
+	
+})();
